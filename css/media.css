@@ -1,0 +1,223 @@
+/* Media Css */
+@media only screen and (max-width: 1440px){
+    /* About us */
+    .soliton-web .innr-banner{
+        padding: 150px 0px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    /* Home page */
+    .soliton-web.banner-area .banner-box .banner-text p{
+        font-size: 20px;
+    }
+    .soliton-web.product-area .our-supply-box {
+        padding-top: 10px;
+    }
+    .soliton-web.quality-area .quality-text{padding: 120px 0px;}
+
+    
+
+}
+@media only screen and (max-width: 1200px){
+    /* home page */
+    .soliton-web.banner-area .banner-box .inr-banner-box{max-width: 80%;}
+    .soliton-web.product-area,.soliton-web.join-area,.soliton-web.fotter-area{
+        padding: 50px 0px;
+    }
+    .soliton-web.product-area .supply-text h3{font-size: 20px;}
+    .soliton-web.product-area .product-image img {
+        height: 180px;
+        object-fit: cover;
+    }
+    .soliton-web.quality-area .quality-text {
+        padding: 100px 0px;
+    }
+    .soliton-web.header-area .header-menu>li {
+        padding-left: 50px;
+    }
+    .soliton-web.header-area .container {
+        max-width: 95%;
+    }
+    /* about us */
+    .soliton-web .innr-banner {
+        padding: 130px 0px;
+    }
+    .soliton-web .innr-banner h2 {
+        font-size: 40px;
+    }
+    .soliton-web.about-area .getintouch{
+        padding: 7px 20px;
+    }
+    /* product */
+    .product-gallery-area .gallery-image img {
+        height: 250px;
+    }
+    /* contact */
+    .soliton-web.contact-area {
+        padding: 60px 0px 20px;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .soliton-web.header-area .header-menu>li{
+    padding: 0px;
+    margin: 10px 0px;
+    }
+    .soliton-web.header-area .header-menu{
+        margin-top: 16px;
+    }
+    .soliton-web.header-area .container{
+        max-width: 100%;
+    }
+    .soliton-web .title-text h2{font-size: 25px;}
+    .soliton-web.fotter-area .first-part , .soliton-web.fotter-area .second-part ,.soliton-web.fotter-area .third-part {
+        margin-bottom: 50px;
+    }
+    .soliton-web.fotter-area .footer-text h4{
+        font-size: 20px;
+    }
+    .soliton-web.product-area .product-text h4 {
+        margin-bottom: 30px;
+    }
+    /* about us */
+    .soliton-web.about-area {
+        padding: 80px 0px;
+    }
+    .soliton-web .innr-banner {
+        background-position-x: 67%;
+        background-position-y: 100%;
+    }
+    .soliton-web.about-area .left-part .about-image {
+        margin-bottom: 50px;
+    }
+    /* contact */
+    .soliton-web.contact-area .contact-whole-box .left-side {
+        margin-bottom: 60px;
+    }
+    .soliton-web.contact-area .contact-whole-box {
+        margin: 40px 0px;
+    }
+    .soliton-web.contact-area {
+        padding: 50px 0px 20px;
+    }
+}
+@media only screen and (max-width: 767px){
+    /* home page */
+    .soliton-web.banner-area .banner-box .banner-text p {
+        font-size: 18px;
+    }
+    .soliton-web.banner-area .banner-box .inr-banner-box {
+        padding: 30px;
+    }
+    .soliton-web.product-area, .soliton-web.join-area, .soliton-web.fotter-area {
+        padding: 40px 0px;
+    }
+    .soliton-web.fotter-area .first-part , .soliton-web.fotter-area .second-part ,.soliton-web.fotter-area .third-part {
+        margin-bottom: 30px;
+    }
+    /* about us */
+    .soliton-web .innr-banner {
+        padding: 120px 0px;
+    }
+    .soliton-web .innr-banner h2 {
+        font-size: 35px;
+    }
+    /* contact */
+    .soliton-web.contact-area .contact-info h4{
+        font-size: 20px;
+    }
+    .soliton-web.contact-area .contactinfo-box{
+        margin-bottom: 20px;
+    }
+    /* expertise */
+    .soliton-web.expertise-area .soliton-expertise-card{
+        padding: 60px 16px;
+    }
+    .soliton-web.expertise-area .expertise-title.text-center {
+        margin-bottom: 30px;
+    }
+    .soliton-web.expertise-area .soliton-expertise-card {
+        padding: 50px 8px;
+    }
+    .soliton-web.expertise-area .ourexpertise-text {
+        margin: 15px;
+    }
+  
+}
+@media only screen and (max-width: 479px){
+    .soliton-web.banner-area .banner-box .banner-text p {
+        font-size: 17px;
+    }
+    .soliton-web.banner-area .banner-box .banner-text p {
+        font-size: 17px;
+    } 
+    .soliton-web .title-text h2 {
+        font-size: 25px;
+    }
+    .soliton-web.product-area .product-text p {
+        margin-bottom: 20px;
+    }
+    .soliton-web.product-area .product-text p {
+        margin-bottom: 20px;
+    }
+    .soliton-web.quality-area .quality-text h2{
+        font-size: 18px;
+    }
+    .soliton-web.quality-area .quality-text {
+        padding: 80px 0px;
+    }
+    .soliton-web.join-area .join-text {
+        margin-bottom: 50px;
+    }
+    .soliton-web.join-area .join-form .icontrol{
+        font-size: 14px;
+    }
+    .soliton-web.fotter-area .footer-text h4 {
+        font-size: 18px;
+    }
+    .soliton-web.banner-area .banner-box .banner-image img {
+        height: 350px;
+    }
+    .soliton-web.banner-area .banner-box .inr-banner-box {
+        padding: 20px;
+    }
+    .soliton-web.banner-area .banner-box .inr-banner-box {
+        max-width: 85%;
+    }
+    .soliton-web.fotter-area .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* about */
+    .soliton-web.about-area {
+        padding: 50px 0px;
+    }
+    .soliton-web.about-area .left-part .about-image {
+        margin-bottom: 40px;
+    }
+    /* products */
+    .product-gallery-area .gallery-product-text {
+        margin-bottom: 40px;
+    }
+    /* contact */
+    .soliton-web.contact-area .card-body {
+        padding: 40px 20px;
+    }
+    .soliton-web.contact-area .contact-icon a{
+        width: 40px;
+    height: 40px;
+    font-size: 16px;
+    }
+    .soliton-web.contact-area .contact-info h4 {
+        font-size: initial;
+    }
+    .soliton-web.contact-area .terms-whole-box{
+        display: block;
+    }
+    .soliton-web.contact-area .contact-whole-box .check-box {
+        margin-bottom: 25px;
+    }
+    .soliton-web.contact-area .contact-whole-box .left-side {
+        margin-bottom: 40px;
+    }
+
+}

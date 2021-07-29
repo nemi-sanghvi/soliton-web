@@ -1,0 +1,584 @@
+/* Nemi Sanghvi 15-7-21  */
+/* Soliton-web : Soliton Steel website */
+
+/* ==========Styling========= */
+.soliton-web.whole-body{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.soliton-web.whole-body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.soliton-web.whole-body .container{
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.soliton-web.header-area .container {
+    max-width: 93%;
+    width: 100%;
+}
+/* Header-area */
+.soliton-web.header-area .header-menu>li {
+    padding-left: 60px;
+}
+.soliton-web.header-area {
+    background-color: whitesmoke;
+    padding: 8px 0px;
+}
+
+.soliton-web.header-area .header-menu li a{
+   color: #124265;
+   text-decoration: none;
+   text-transform: capitalize;
+   position: relative;
+   display: inline-block;
+   font-weight: 700;
+ 
+}
+.soliton-web.header-area .header-menu li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    transition: all .3s ease;
+    border-radius: 30px;
+}
+.soliton-web.header-area .header-menu li a:hover::after{
+    width: 100%;
+    background-color: #124265;
+}
+.soliton-web.header-area  .logo {
+    max-width: 200px;
+}
+.soliton-web.header-area .logo img {
+    height: auto;
+    width: 80px;
+    object-fit: cover;
+}
+.soliton-web.fotter-area .footer-logo img{
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+}
+/* Sec-banner */
+.soliton-web.banner-area .owl-theme .owl-dot span{
+    background-color: #37517ea8;
+}
+.soliton-web.banner-area .owl-theme .owl-dot.active span, .soliton-web.banner-area .owl-theme .owl-dot:hover span{
+    background-color: #124265;
+}
+.soliton-web.banner-area .banner-box .banner-image {
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.soliton-web.banner-area .banner-box .banner-image::after{
+    content: "";
+    background: linear-gradient( 
+        43deg
+         , rgb(0 0 0 / 0%) 36%, rgb(237 27 36 / 0%) 89%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.soliton-web.banner-area .banner-box {
+    position: relative;
+}
+.soliton-web.banner-area .banner-box .inr-banner-box {
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    background-color: #ffffffc2;
+    width: 100%;
+    max-width: 56%;
+    margin: 0 auto;
+    padding: 50px 40px;
+    height: auto;
+}
+.soliton-web.banner-area .banner-box .banner-text p {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.soliton-web.banner-area .banner-box .banner-image img {
+    object-position: center;
+    object-fit: cover;
+    height: 500px;
+}
+/* Product area */
+.soliton-web.product-area  .product-image img{
+    height: 250px;
+    object-fit: cover;
+}
+.soliton-web.product-area .product-text h2 {
+    margin-bottom: 30px;
+}
+.soliton-web.product-area .product-text h4{
+    margin-bottom: 40px;
+}
+.soliton-web.product-area .product-text p{
+    margin-bottom: 30px;
+}
+.soliton-web.product-area {
+    padding: 60px 0px;
+}
+.soliton-web .title-text h2{
+    color: #37517e;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+.soliton-web .title-text h2::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    background-color: #47b2e4;
+    height: 3px;
+    width: 57%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.soliton-web.product-area .product-box {
+    color: white;
+    position: relative;
+    margin: 10px;
+}
+.soliton-web.product-area .supply-text {
+    padding: 30px 0px;
+    background-color: #124265;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.soliton-web.product-area .our-supply-box {
+    padding-top: 60px;
+}
+.soliton-web.product-area .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 43%;
+    transform: translate(0%, -50%);
+}
+.soliton-web.product-area .owl-nav button {
+    background-color: #12426573;
+    color: white;
+    padding: 10px !important;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 0;
+}
+.soliton-web.product-area .owl-nav button:hover{
+    background-color: #12426573;
+    color: white;
+}
+.soliton-web.product-area .owl-nav button span{
+    font-size: 40px;
+}
+.soliton-web.product-area .owl-dots{
+    margin-top: 20px;
+}
+.soliton-web.product-area .owl-theme .owl-dot.active span, .soliton-web.product-area .owl-theme .owl-dot:hover span{
+   background-color: #124265;
+}
+.soliton-web.product-area .owl-theme .owl-dot span{
+    background-color: #12426559;
+}
+/* sec */
+.soliton-web.quality-area{
+    background-image: url(../images/quality-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.soliton-web.quality-area::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #37517ee3;
+    opacity: 1;
+    z-index: -1;
+    background-attachment: fixed;
+}
+.soliton-web.quality-area .quality-text {
+    padding: 187px 0px;
+    color: white;
+}
+/* sec news */
+.soliton-web.join-area .updatenews {
+    position: relative;
+}
+.soliton-web.join-area .join-form .subscribe {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.soliton-web.join-area .join-form .icontrol {
+    background-color: white;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.soliton-web.join-area .join-form .subscribe-me {
+    background-color: #37517e;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.soliton-web.join-area {
+    padding: 60px 0px;
+    background-color: #f3f5fa;
+}
+.soliton-web.join-area .join-text {
+    margin-bottom: 60px;
+}
+.soliton-web.join-area .join-text h2 {
+    margin-bottom: 30px;
+}
+/* sec footer */
+.soliton-web.fotter-area .footer-contact a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+.soliton-web.fotter-area .footer-contact strong {
+    padding-right: 10px;
+    color: #37517e;
+    font-weight: 700;
+}
+.soliton-web.fotter-area .footer-text ul{
+    padding: 0px;
+    list-style-type: none;
+}
+.soliton-web.fotter-area .footer-text ul , .soliton-web.fotter-area .third-part .footer-text p {
+    margin-top: 25px;
+}
+.soliton-web.fotter-area .footer-text ul li {
+    margin-bottom: 18px;
+   
+}
+.soliton-web.fotter-area .footer-text ul li i{
+    transition: transform .3s ease;
+    color: #47b2e4;
+}
+.soliton-web.fotter-area .footer-text ul li:hover i{
+    transform: translateX(-4px);
+}
+.soliton-web.fotter-area .footer-text ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.soliton-web.fotter-area .social-footer-icons a {
+    font-size: 18px;
+    background: #47b2e4;
+    color: #fff;
+    margin-right: 12px;
+    border-radius: 30px;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.soliton-web.fotter-area .social-footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.soliton-web.fotter-area {
+    padding: 60px 0px;
+    background-color: white;
+}
+.soliton-web.fotter-area .footer-text h4 {
+    color: #37517e;
+    font-weight: 700;
+}
+.soliton-web.fotter-area .social-footer-icons a:hover{
+    background-color: #37517e;
+}
+.soliton-web.footer-copyright .copyright-text p {
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+.soliton-web.footer-copyright {
+    padding: 20px 0px;
+    background-color: #37517e;
+}
+/* ============About page============= */
+/* About sec */
+.soliton-web.about-area {
+    background-color: #f3f5fa;
+}
+.soliton-web.about-area .about-text p {
+    margin-bottom: 25px;
+}
+.soliton-web .innr-banner {
+    padding: 200px 0px;
+    background-image: url(../images/quality-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-attachment: fixed;
+    color: white;
+}
+.soliton-web .innr-banner:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ad;
+    opacity: 1;
+    z-index: -1;
+    background-attachment: fixed;
+}
+.soliton-web .innr-banner h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.soliton-web.about-area .getintouch {
+    background-color: #37517e;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.soliton-web.about-area .getintouch:hover{
+    background-color: #47b2e4;
+}
+.soliton-web.about-area .about-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.soliton-web.about-area .about-text {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* Gallery sec */
+.product-gallery-area .gallery-box {
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    border-radius: 18px;
+    margin: 12px 0px;
+}
+.product-gallery-area .gallery-box:hover:after{
+    content: "";
+    background-color: rgb(0 0 0 / 65%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.product-gallery-area  .gallery-image::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: darken;
+    background-color: #00000000;
+}
+
+.product-gallery-area .gallery-text {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    background-color: #37517e;
+    opacity: 1;
+    transition: transform .3s ease-in-out;
+    transform: translateY(100%);
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.product-gallery-area .gallery-box:hover .gallery-text{
+    opacity: 1;
+    transform: translateY(0%);
+    z-index: 30;
+}
+.product-gallery-area .gallery-product-text {
+    margin-bottom: 60px;
+}
+.product-gallery-area {
+    padding: 60px 0px;
+    background-color: #f3f5fa;
+}
+.product-gallery-area .gallery-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/* =======Contact page======== */
+/* contact */
+.soliton-web.contact-area {
+    padding: 60px 0px;
+    background-color: #f3f5fa;
+}
+.soliton-web.contact-area .contact-text h2 {
+    margin-bottom: 40px;
+}
+.soliton-web.contact-area .contactinfo-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.soliton-web.contact-area .contact-icon a {
+    font-size: 20px;
+    color: #47b2e4;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.soliton-web.contact-area .contact-info {
+    margin-left: 18px;
+}
+.soliton-web.contact-area .contact-info h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #37517e;
+}
+.soliton-web.contact-area .contact-info p , .soliton-web.contact-area .contact-info a{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #6182ba;
+   
+}
+.soliton-web.contact-area .contactinfo-box:hover .contact-icon a{
+    background-color: #47b2e4;
+    color: white;
+}
+.soliton-web.contact-area .card {
+    border-top: 8px solid #47b2e4;
+    box-shadow: 0 5px 15px -5px rgb(0 0 0 / 56%);
+}
+.soliton-web.contact-area .card-body {
+    padding: 60px 30px 20px;
+}
+.soliton-web.contact-area .location-map iframe {
+    width: 100%;
+    height: 250px;
+}
+.soliton-web.contact-area .terms-whole-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.soliton-web.contact-area .right-side .isettings {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    color: black;
+}
+.soliton-web.contact-area .right-side .lsettings {
+    color: #37517e;
+    font-weight: 600;
+}
+.soliton-web.contact-area  .contact-whole-box{
+    margin: 60px 0px;
+}
+.soliton-web.contact-area .submit-btn {
+    background-color: #47b2e4;
+    border: transparent;
+    transition: all .3s ease;
+}
+.soliton-web.contact-area .submit-btn:hover {
+    background-color: #37517e;
+}
+/* expertise-area */
+.soliton-web.expertise-area{
+    background-image: url(../images/expertise-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.soliton-web.expertise-area::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #37517e87;
+    opacity: 1;
+    z-index: -1;
+    background-attachment: fixed;  
+}
+.soliton-web.expertise-area .soliton-expertise-card {
+    background-color: whitesmoke;
+    padding: 60px 30px;
+}
+.soliton-web.expertise-area .ourexpertise-text h3 {
+    margin-bottom: 18px;
+}
+.soliton-web.expertise-area .expertise-title.text-center {
+    margin-bottom: 60px;
+}
+.soliton-web.expertise-area .ourexpertise-text {
+    margin: 20px;
+}
