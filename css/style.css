@@ -553,7 +553,6 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background-attachment: fixed;
 }
 .soliton-web.expertise-area::after{
     content: "";
