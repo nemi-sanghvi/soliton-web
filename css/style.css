@@ -581,3 +581,7 @@
 .soliton-web.expertise-area .ourexpertise-text {
     margin: 20px;
 }
+/* added */
+.soliton-web.product-area .supply-text h3{
+    font-size: 22px;
+}
